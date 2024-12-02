@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashank Gupta - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/split-type" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+        <div class="loading-text">Welcome to My Portfolio</div>
+    </div>
+
+    <nav class="navigation">
+        <div class="logo">YASHANK GUPTA</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#skills" class="nav-link">SKILLS</a>
+            <a href="#education" class="nav-link">EDUCATION</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </nav>
+
+    <main>
+        <canvas id="bg"></canvas>
+        
+        <div class="content">
+            <section id="home" class="section hero-section">
+                <div class="hero-text">
+                    <h1 class="split-text">YASHANK GUPTA</h1>
+                    <h2 class="split-text">YOUR PORTAL TO GROUNDBREAKING INNOVATIONS</h2>
+                    <div class="hero-details">
+                        <p><i class="fas fa-map-marker-alt"></i> Dehradun, Uttarakhand, India</p>
+                        <p><i class="fas fa-graduation-cap"></i> Pursuing BCA at Uttaranchal University</p>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="mouse"></div>
+                    <p>Scroll to explore</p>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="circle-container">
+                        <div class="outer-ring"></div>
+                        <div class="profile-circle">
+                            <img src="Profile-image.jpg" alt="Yashank Gupta">
+                        </div>
+                        <div class="inner-dot"></div>
+                    </div>
+                    <div class="about-text">
+                        <p class="reveal-text">Passionate BCA student with a keen interest in technology and development</p>
+                        <p class="reveal-text">Currently pursuing Bachelor of Computer Applications at Uttaranchal University</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="section">
+                <h2 class="section-title split-text">Education</h2>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Bachelor's of Computer Application</h3>
+                            <p class="timeline-date">2022 - Present</p>
+                            <p>Uttaranchal University</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>XII (UP-Board)</h3>
+                            <p class="timeline-date">2021 - 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>X (UP-Board)</h3>
+                            <p class="timeline-date">2019 - 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experiences" class="section">
+                <h2 class="section-title split-text">Experiences</h2>
+                <div class="experience-grid">
+                    <div class="card">
+                        <h3>Web Development Internship</h3>
+                        <p class="date">June 2023 - July 2023 (2 Months)</p>
+                        <p class="company">Academon</p>
+                    </div>
+                    <div class="card">
+                        <h3>Ethical Hacking Internship</h3>
+                        <p class="date">June 2024 - July 2024 (2 Months)</p>
+                        <p class="company">Internshala</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="section-title split-text">Projects</h2>
+                <div class="projects-grid">
+                    <div class="card project-card">
+                        <h3>Music Player in C++</h3>
+                        <p>Developed a C++ Application for Playing audio files with functionalities like Play, Pause, Change.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Audio Processing</span>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <h3>Telegram ChatBot GPT</h3>
+                        <p>Using OpenAI API: Built a chatbot using Python and openAI API to deliver Automated responses on Telegram</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">Telegram API</span>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <h3>Weather Forecast Website</h3>
+                        <p>Using Weather API: Created a website using HTML/CSS, and JS. Provides real-time weather forecast through API</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Weather API</span>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <h3>Anime Quiz App</h3>
+                        <p>Using XML and Java on Android Studio: Created a full Working Mobile App with APK file</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">XML</span>
+                            <span class="tech-tag">Android Studio</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <h2 class="section-title split-text">Skills & Tools</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>MySQL</li>
+                            <li>SQL Injection</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-paint-brush"></i> Web Development</h3>
+                        <ul>
+                            <li>UI Designing</li>
+                            <li>HTML, CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Canva</li>
+                            <li>Visual Studio Code</li>
+                            <li>MySQL Workbench</li>
+                            <li>Xampp</li>
+                            <li>SQL Map - Kali Linux</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="achievements" class="section">
+                <h2 class="section-title split-text">Awards & Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="card achievement-card">
+                        <h3>Rapid Website Development Competition</h3>
+                        <p>3rd Position in International Programmers Day (15 - Sept - 2023)</p>
+                    </div>
+                    <div class="card achievement-card">
+                        <h3>Free Fire E-sports Tournament</h3>
+                        <p>1st Position in E-sport Tournament - Fenix Event</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="certificates" class="section">
+                <h2 class="section-title split-text">Certificates</h2>
+                <div class="certificates-grid">
+                    <div class="card certificate-card">
+                        <h3>Python Programming Essential Bootcamp</h3>
+                        <p>By LetsUpgrade from 31 - January to 4 - February 2023</p>
+                    </div>
+                    <div class="card certificate-card">
+                        <h3>C++ Programming Essential Bootcamp</h3>
+                        <p>By LetsUpgrade from 23 - Jan - 23 to 27- Jan - 23</p>
+                    </div>
+                    <div class="card certificate-card">
+                        <h3>Mathematical Economics</h3>
+                        <p>Swayam online course completed - Score: 69/100 Marks</p>
+                    </div>
+                    <div class="card certificate-card">
+                        <h3>Avishkar Event - IT UTSAV</h3>
+                        <p>Participation in Final Round held on 15th April 2024</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="section-title split-text">Contact</h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91-8005282545</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>yg421518@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Dehradun - 248007</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/yashank-gupta" target="_blank" rel="noopener noreferrer">
+                            <p>linkedin.com/in/yashank-gupta</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <script>
+        // Custom cursor with smooth movement
+        const cursor = document.querySelector('.custom-cursor');
+        const cursorDot = document.querySelector('.custom-cursor-dot');
+        
+        let mouseX = 0;
+        let mouseY = 0;
+        let cursorX = 0;
+        let cursorY = 0;
+        let cursorDotX = 0;
+        let cursorDotY = 0;
+        
+        // Track mouse position
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        // Smooth cursor animation
+        function animateCursor() {
+            // Smooth movement for main cursor
+            const easeFactor = 0.2;
+            cursorX += (mouseX - cursorX) * easeFactor;
+            cursorY += (mouseY - cursorY) * easeFactor;
+            cursor.style.transform = `translate(${cursorX}px, ${cursorY}px) translate(-50%, -50%)`;
+            
+            // Slightly faster movement for dot
+            const dotEaseFactor = 0.3;
+            cursorDotX += (mouseX - cursorDotX) * dotEaseFactor;
+            cursorDotY += (mouseY - cursorDotY) * dotEaseFactor;
+            cursorDot.style.transform = `translate(${cursorDotX}px, ${cursorDotY}px) translate(-50%, -50%)`;
+            
+            requestAnimationFrame(animateCursor);
+        }
+        animateCursor();
+
+        // Hover effects for interactive elements
+        const interactiveElements = document.querySelectorAll('a, button, .info-item, .nav-link');
+        
+        interactiveElements.forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursor.classList.add('cursor-hover');
+                cursorDot.classList.add('cursor-dot-hover');
+            });
+            
+            el.addEventListener('mouseleave', () => {
+                cursor.classList.remove('cursor-hover');
+                cursorDot.classList.remove('cursor-dot-hover');
+            });
+        });
+
+        // Hide cursor when leaving window
+        document.addEventListener('mouseleave', () => {
+            cursor.style.opacity = '0';
+            cursorDot.style.opacity = '0';
+        });
+
+        document.addEventListener('mouseenter', () => {
+            cursor.style.opacity = '1';
+            cursorDot.style.opacity = '1';
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="script.js"></script>
+</body>
+</html>
